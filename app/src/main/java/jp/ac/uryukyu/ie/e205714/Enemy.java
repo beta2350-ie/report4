@@ -54,38 +54,73 @@ public class Enemy {
         }
     }
 
-    //getter
-
+    /**
+     * getterメソッドです。
+     * フィールド変数nameの値を返します。
+     * @return フィールド変数nameの値
+     */
     public String getName(){
         return this.name;
     }
 
+    /**
+     * getterメソッドです。
+     * フィールド変数hitPointの値を返します。
+     * @return フィールド変数hitPointの値
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
 
+    /**
+     * getterメソッドです。
+     * フィールド変数attackの値を返します。
+     * @return フィールド変数attackの値
+     */
     public int getAttack(){
         return this.attack;
     }
 
+    /**
+     * getterメソッドです。
+     * フィールド変数deadの値を返します。
+     * @return フィールド変数deadの値
+     */
     public boolean getDead(){
         return this.dead;
     }
 
-    //setter
-
+    /**
+     * setterメソッドです。
+     * _nameをフィールド変数nameに入れます。
+     * @param _name enemyの新たな名前 
+     */
     public void setName(String _name){
         this.name=_name;
     }
 
+    /**
+     * setterメソッドです。
+     * _hitPointをフィールド変数hitPointに入れます。
+     * @param _hitPoint enemyの新たなHP
+     */
     public void setHitPoint(int _hitPoint){
         this.hitPoint=_hitPoint;
     }
 
+    /**
+     * setterメソッドです。
+     * _attackをフィールド変数attackに入れます。
+     * @param _attack enemyの新たな攻撃力
+     */
     public void setAttack(int _attack){
         this.attack=_attack;
     }
-
+    /**
+     * setterメソッドです。
+     * _deadをフィールド変数deadに入れます。
+     * @param _dead enemyの生死
+     */
     public void setDead(boolean _dead){
         this.dead=_dead;
     }
