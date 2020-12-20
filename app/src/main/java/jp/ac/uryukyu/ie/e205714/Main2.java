@@ -16,7 +16,8 @@ public class Main2 {
         while( hero.dead == false && enemy.dead == false ){
             turn++;
             System.out.printf("%dターン目開始！\n", turn);
-            hero.attack(enemy); // (b)
+            //hero.attack(enemy); // (b)
+            hero.attackWithWeponSkill(enemy);
             enemy.attack(hero);
         }
         System.out.println("戦闘終了");
